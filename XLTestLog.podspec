@@ -18,4 +18,3 @@ Pod::Spec.new do |s|
   s.source_files = 'XLTestLog/*.{h,m}'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO', 'OTHER_LDFLAGS' => '-weak-lswiftXCTest', 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks"' }
 end
-end
