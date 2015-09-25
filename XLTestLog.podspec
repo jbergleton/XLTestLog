@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = 'XLTestLog is a lightweight library to style and color your XCTest logs on Xcode console for more readability.'
   s.homepage     = 'https://github.com/xareelee/XLTestLog'
   s.authors      = { 'Kang-Yu Xaree Lee' => 'xareelee@gmail.com' }
-  s.source       = { :git => "https://github.com/xareelee/XLTestLog.git", :tag => s.version.to_s, :submodules =>  true }
+  s.source       = { :git => "https://github.com/jbergleton/XLTestLog.git", :tag => s.version.to_s, :submodules =>  true }
   
   s.requires_arc = true  
   s.ios.deployment_target = '6.0'
