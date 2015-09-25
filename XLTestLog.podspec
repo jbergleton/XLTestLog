@@ -16,4 +16,6 @@ Pod::Spec.new do |s|
   s.weak_framework = 'XCTest'
 
   s.source_files = 'XLTestLog/*.{h,m}'
+  s.pod_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks"' }
+
 end
